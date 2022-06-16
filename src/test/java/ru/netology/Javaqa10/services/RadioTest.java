@@ -1,0 +1,31 @@
+package ru.netology.Javaqa10.services;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+public class RadioTest {
+
+    @Test
+    public void showCurrentRadioStation() {
+        Radio service = new Radio();
+
+        service.setCurrentRadioStation(0);
+
+        int expected = 1;
+        int actual = service.getcurrentRadioStation();
+
+        Assertions.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void showCurrentVolume() {
+        Radio service = new Radio();
+
+        service.setCurrentVolume(3);
+
+        int expected = 4;
+        int actual = service.getCurrentVolume();
+
+        Assertions.assertEquals(expected, actual);
+    }
+}
