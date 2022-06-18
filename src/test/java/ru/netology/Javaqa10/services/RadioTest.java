@@ -9,9 +9,9 @@ public class RadioTest {
     public void showCurrentRadioStation() {
         Radio service = new Radio();
 
-        service.setCurrentRadioStation(0);
+        service.setCurrentRadioStation(9);
 
-        int expected = 1;
+        int expected = 0;
         int actual = service.getcurrentRadioStation();
 
         Assertions.assertEquals(expected, actual);
@@ -21,9 +21,9 @@ public class RadioTest {
     public void showCurrentVolume() {
         Radio service = new Radio();
 
-        service.setCurrentVolume(3);
+        service.setCurrentVolume(10);
 
-        int expected = 4;
+        int expected = 10;
         int actual = service.getCurrentVolume();
 
         Assertions.assertEquals(expected, actual);
