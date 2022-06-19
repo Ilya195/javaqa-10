@@ -13,12 +13,12 @@ public class Radio {
         for (int i = 0; i <= 9; i++) {
             if (currentRadioStation >= 0 && currentRadioStation < 9) {
                 currentRadioStation = i + 1;
-                if (currentRadioStation >= 9) {
-                    currentRadioStation = i * zero;
-                    return;
-                }
+            }
+            if (currentRadioStation >= 9) {
+                currentRadioStation = i * zero;
             }
         }
+        return;
     }
 
 
@@ -31,7 +31,7 @@ public class Radio {
             currentVolume = newCurrentVolume + 1;
         }
         if (currentVolume >= 10) {
-           currentVolume = currentVolume - 1;
+            currentVolume = currentVolume - 1;
         }
     }
 }
