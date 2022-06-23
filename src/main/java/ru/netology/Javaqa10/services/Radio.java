@@ -1,37 +1,49 @@
 package ru.netology.Javaqa10.services;
 
 public class Radio {
-    public int currentRadioStation;
+    private int currentRadioStation;
     public int currentVolume;
 
     public int getcurrentRadioStation() {
         return currentRadioStation;
     }
 
-    public void setCurrentRadioStation(int newCurrentRadioStation) {
-        int zero = 0;
-        for (int i = 0; i <= 9; i++) {
-            if (currentRadioStation >= 0 && currentRadioStation < 9) {
-                currentRadioStation = i + 1;
-            }
-            if (currentRadioStation >= 9) {
-                currentRadioStation = i * zero;
-            }
+
+    public void setcurrentRadioStation(int newCurrentRadioStation) {
+        if (newCurrentRadioStation < 0) {
+            return;
+        } else if (newCurrentRadioStation > 9) {
+            return;
         }
-        return;
+        currentRadioStation = newCurrentRadioStation;
+    }
+
+    public void NextRadio() {
+        if (currentRadioStation < 9) {
+            currentRadioStation = currentRadioStation + 1;
+        } else currentRadioStation = 0;
+    }
+
+    public void PrevRadio() {
+       if (0 < currentRadioStation) {
+           currentRadioStation = currentRadioStation - 1;
+       } else currentRadioStation = 9;
     }
 
 
-    public int getCurrentVolume() {
-        return currentVolume;
+    public void currentVolumePlus() {
+        if (currentVolume < 10) {
+            currentVolume = currentVolume + 1;
+        } else {
+            currentVolume = 10;
+        }
     }
 
-    public void setCurrentVolume(int newCurrentVolume) {
-        if (0 <= currentVolume && currentVolume < 10) {
-            currentVolume = newCurrentVolume + 1;
-        }
-        if (currentVolume >= 10) {
+    public void currentVolumeMinus() {
+        if (currentVolume > 0) {
             currentVolume = currentVolume - 1;
+        } else {
+            currentVolume = 0;
         }
     }
 }

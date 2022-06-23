@@ -7,6 +7,7 @@
     <list default="true" id="626cd6c6-ba25-4ceb-b7f2-cb03e161d795" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/Javaqa10/services/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Javaqa10/services/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/Javaqa10/services/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/Javaqa10/services/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +48,8 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest (1)">
-    <configuration name="RadioTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RadioTest.showMaxCurrentRadioStation">
+    <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Javaqa-10" />
       <extension name="coverage">
         <pattern>
@@ -58,15 +59,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.Javaqa10.services" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.Javaqa10.services.RadioTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Javaqa-10" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RadioTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.showCurrentRadioStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.shouldNextRadioStation9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Javaqa-10" />
       <extension name="coverage">
         <pattern>
@@ -97,13 +89,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.Javaqa10.services" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.Javaqa10.services.RadioTest" />
-      <option name="METHOD_NAME" value="showCurrentRadioStation" />
+      <option name="METHOD_NAME" value="shouldNextRadioStation9" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.showCurrentVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.shouldNextRadioStationEight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Javaqa-10" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +105,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.Javaqa10.services" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.Javaqa10.services.RadioTest" />
-      <option name="METHOD_NAME" value="showCurrentVolume" />
+      <option name="METHOD_NAME" value="shouldNextRadioStationEight" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.shouldPrevRadioStation0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Javaqa-10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.Javaqa10.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.Javaqa10.services" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.Javaqa10.services.RadioTest" />
+      <option name="METHOD_NAME" value="shouldPrevRadioStation0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.showMaxCurrentRadioStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Javaqa-10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.Javaqa10.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.Javaqa10.services" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.Javaqa10.services.RadioTest" />
+      <option name="METHOD_NAME" value="showMaxCurrentRadioStation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,9 +145,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest (1)" />
-        <item itemvalue="JUnit.RadioTest.showCurrentVolume" />
-        <item itemvalue="JUnit.RadioTest.showCurrentRadioStation" />
+        <item itemvalue="JUnit.RadioTest.showMaxCurrentRadioStation" />
+        <item itemvalue="JUnit.RadioTest.shouldPrevRadioStation0" />
+        <item itemvalue="JUnit.RadioTest.shouldNextRadioStationEight" />
+        <item itemvalue="JUnit.RadioTest.shouldNextRadioStation9" />
         <item itemvalue="JUnit.RadioTest" />
       </list>
     </recent_temporary>
@@ -153,13 +178,14 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/Javaqa10/services/RadioTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/netology/Javaqa10/services/Radio.java</url>
-          <line>10</line>
-          <properties class="ru.netology.Javaqa10.services.Radio" method="setCurrentRadioStation">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
+          <line>21</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
