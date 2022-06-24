@@ -34,20 +34,22 @@ public class Radio {
         }
     }
 
+    public int getCurrentVolume() {
+        return currentVolume;
+    }
 
-    public void currentVolumePlus() {
+
+    public void setCurrentVolumePlus() {
         if (currentVolume < 10) {
             currentVolume = currentVolume + 1;
-        } else {
-            currentVolume = 10;
+        } else currentVolume = 10; {
         }
     }
 
-    public void currentVolumeMinus() {
+    public void setCurrentVolumeMinus() {
         if (currentVolume > 0) {
             currentVolume = currentVolume - 1;
-        } else {
-            currentVolume = 0;
+        } else currentVolume = 0; {
         }
     }
 }
