@@ -48,7 +48,7 @@
       <command value="mvn verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.showCurrentRadioStationPrevZero">
+  <component name="RunManager" selected="JUnit.RadioTest.showCurrentRadioStationTest">
     <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Javaqa-10" />
       <extension name="coverage">
@@ -64,7 +64,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.showCurrentRadioStationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Javaqa-10" />
       <extension name="coverage">
         <pattern>
@@ -74,28 +74,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.Javaqa10.services" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.Javaqa10.services.RadioTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest.showCurrentRadioStationMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Javaqa-10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.Javaqa10.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.Javaqa10.services" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.Javaqa10.services.RadioTest" />
-      <option name="METHOD_NAME" value="showCurrentRadioStationMax" />
+      <option name="METHOD_NAME" value="showCurrentRadioStationTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.showCurrentRadioStationNext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.showCurrentVolumeMax101" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Javaqa-10" />
       <extension name="coverage">
         <pattern>
@@ -105,13 +90,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.Javaqa10.services" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.Javaqa10.services.RadioTest" />
-      <option name="METHOD_NAME" value="showCurrentRadioStationNext" />
+      <option name="METHOD_NAME" value="showCurrentVolumeMax101" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.showCurrentRadioStationNext9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.showCurrentVolumeMinOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Javaqa-10" />
       <extension name="coverage">
         <pattern>
@@ -121,13 +106,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.Javaqa10.services" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.Javaqa10.services.RadioTest" />
-      <option name="METHOD_NAME" value="showCurrentRadioStationNext9" />
+      <option name="METHOD_NAME" value="showCurrentVolumeMinOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.showCurrentRadioStationPrevZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.showCurrentVolumeMinusTen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Javaqa-10" />
       <extension name="coverage">
         <pattern>
@@ -137,7 +122,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.Javaqa10.services" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.Javaqa10.services.RadioTest" />
-      <option name="METHOD_NAME" value="showCurrentRadioStationPrevZero" />
+      <option name="METHOD_NAME" value="showCurrentVolumeMinusTen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.showCurrentVolumePlus50" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Javaqa-10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.Javaqa10.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.Javaqa10.services" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.Javaqa10.services.RadioTest" />
+      <option name="METHOD_NAME" value="showCurrentVolumePlus50" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest.showCurrentRadioStationPrevZero" />
-        <item itemvalue="JUnit.RadioTest" />
-        <item itemvalue="JUnit.RadioTest.showCurrentRadioStationMax" />
-        <item itemvalue="JUnit.RadioTest.showCurrentRadioStationNext" />
-        <item itemvalue="JUnit.RadioTest.showCurrentRadioStationNext9" />
+        <item itemvalue="JUnit.RadioTest.showCurrentRadioStationTest" />
+        <item itemvalue="JUnit.RadioTest.showCurrentVolumePlus50" />
+        <item itemvalue="JUnit.RadioTest.showCurrentVolumeMinusTen" />
+        <item itemvalue="JUnit.RadioTest.showCurrentVolumeMinOne" />
+        <item itemvalue="JUnit.RadioTest.showCurrentVolumeMax101" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +181,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ru/netology/Javaqa10/services/RadioTest.java</url>
-          <line>36</line>
+          <line>186</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>

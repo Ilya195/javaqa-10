@@ -18,28 +18,28 @@ public class Radio {
     }
 
 
-    public void setCurrentRadioStation(int newCurrentRadioStation) {
-        if (currentRadioStation < 0) {
+    public void setcurrentRadioStation(int newCurrentRadioStation) {
+        if (newCurrentRadioStation < 0) {
             return;
-        }
-        if (currentRadioStation > maxStation) {
+        } else if (newCurrentRadioStation > maxStation) {
             return;
         }
         currentRadioStation = newCurrentRadioStation;
     }
 
-
-    public void next() {
-        if ( currentRadioStation < maxStation) {
-            currentRadioStation  ++;
-        } else currentRadioStation = 0;
+    public void nextRadio() {
+        if (currentRadioStation < maxStation) {
+            currentRadioStation = currentRadioStation + 1;
+        } else {
+            currentRadioStation = 0;
+        }
     }
 
-    public void down() {
-        if ( currentRadioStation > 0) {
-            currentRadioStation --;
-        } else currentRadioStation = 9; {
-
+    public void prevRadio() {
+        if (0 < currentRadioStation) {
+            currentRadioStation = currentRadioStation - 1;
+        } else {
+            currentRadioStation = maxStation;
         }
     }
 
@@ -47,25 +47,18 @@ public class Radio {
         return currentVolume;
     }
 
-    public void maxVolume() {
-        if (currentVolume < 100) {
-            currentVolume ++;
+
+    public void setCurrentVolumePlus() {
+        if (currentVolume < 10) {
+            currentVolume = currentVolume + 1;
+        } else currentVolume = 10; {
         }
     }
 
-    public void minVolume() {
+    public void setCurrentVolumeMinus() {
         if (currentVolume > 0) {
-            currentVolume --;
+            currentVolume = currentVolume - 1;
+        } else currentVolume = 0; {
         }
-    }
-
-    public void setCurrentVolume(int newCurrentVolume) {
-        if (newCurrentVolume > 100 ) {
-            return;
-        }
-        if (newCurrentVolume < 0) {
-            return;
-        }
-        currentVolume = newCurrentVolume;
     }
 }
