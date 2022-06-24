@@ -1,8 +1,8 @@
 package ru.netology.Javaqa10.services;
 
 public class Radio {
-    private int currentRadioStation;
-    public int currentVolume;
+    protected int currentRadioStation;
+    protected int currentVolume;
 
     public int getcurrentRadioStation() {
         return currentRadioStation;
@@ -18,16 +18,20 @@ public class Radio {
         currentRadioStation = newCurrentRadioStation;
     }
 
-    public void NextRadio() {
+    public void nextRadio() {
         if (currentRadioStation < 9) {
             currentRadioStation = currentRadioStation + 1;
-        } else currentRadioStation = 0;
+        } else {
+            currentRadioStation = 0;
+        }
     }
 
-    public void PrevRadio() {
-       if (0 < currentRadioStation) {
-           currentRadioStation = currentRadioStation - 1;
-       } else currentRadioStation = 9;
+    public void prevRadio() {
+        if (0 < currentRadioStation) {
+            currentRadioStation = currentRadioStation - 1;
+        } else {
+            currentRadioStation = 9;
+        }
     }
 
 

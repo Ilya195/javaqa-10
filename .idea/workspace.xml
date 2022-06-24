@@ -44,8 +44,8 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="maven clean verify" />
-      <command value="mvn verify" />
       <command value="mvn clean verify" />
+      <command value="mvn verify" />
     </option>
   </component>
   <component name="RunManager" selected="JUnit.RadioTest.showMaxCurrentRadioStation">
@@ -178,11 +178,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/Javaqa10/services/RadioTest.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/netology/Javaqa10/services/Radio.java</url>
           <line>21</line>

@@ -24,7 +24,7 @@ public class RadioTest {
 
 
         service.setcurrentRadioStation(8);
-        service.NextRadio();
+        service.nextRadio();
         int expected = 9;
         int actual = service.getcurrentRadioStation();
 
@@ -35,7 +35,7 @@ public class RadioTest {
     public void shouldPrevRadioStationNine() {
 
         service.setcurrentRadioStation(9);
-        service.NextRadio();
+        service.nextRadio();
         int expected = 0;
         int actual = service.getcurrentRadioStation();
 
@@ -58,7 +58,7 @@ public class RadioTest {
     public void showMinCurrentRadioStation() {
 
         service.setcurrentRadioStation(- 2);
-        service.PrevRadio();
+        service.prevRadio();
         int expected = 9;
         int actual = service.getcurrentRadioStation();
 
@@ -69,7 +69,7 @@ public class RadioTest {
     public void shouldPrevRadioStation0() {
 
         service.setcurrentRadioStation(0);
-        service.PrevRadio();
+        service.prevRadio();
         int expected = 9;
         int actual = service.getcurrentRadioStation();
 
@@ -80,7 +80,7 @@ public class RadioTest {
     public void shouldPrevRadioStation() {
 
         service.setcurrentRadioStation(9);
-        service.PrevRadio();
+        service.prevRadio();
         int expected = 8;
         int actual = service.getcurrentRadioStation();
 
