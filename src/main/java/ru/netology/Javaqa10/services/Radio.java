@@ -13,12 +13,12 @@ public class Radio {
     maxStation = stationscount - 1;
     }
 
-    public int getcurrentRadioStation() {
+    public int getCurrentRadioStation() {
         return currentRadioStation;
     }
 
 
-    public void setcurrentRadioStation(int newCurrentRadioStation) {
+    public void setCurrentRadioStation(int newCurrentRadioStation) {
         if (newCurrentRadioStation < 0) {
             return;
         } else if (newCurrentRadioStation > maxStation) {
@@ -51,14 +51,16 @@ public class Radio {
     public void setCurrentVolumePlus() {
         if (currentVolume < 10) {
             currentVolume = currentVolume + 1;
-        } else currentVolume = 10; {
+        } else {
+            currentVolume = 10;
         }
     }
 
     public void setCurrentVolumeMinus() {
         if (currentVolume > 0) {
             currentVolume = currentVolume - 1;
-        } else currentVolume = 0; {
+        } else {
+            currentVolume = 0;
         }
     }
 }
